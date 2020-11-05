@@ -31,8 +31,8 @@ class FindTriplet {
 	public static void main(String[] args)
 	{
 		FindTriplet triplet = new FindTriplet();
-		int A[] = { 1, 4, 45, 6, 10, 8 };
-		int sum = 22;
+		int A[] = { 1, 2 ,6 ,9 ,3};
+		int sum = 13;
 		int arr_size = A.length;
 
 		triplet.find3Numbers(A, arr_size, sum);
